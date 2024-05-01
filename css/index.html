@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>from GPT</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+<body class="">
+
+    <div class="container">
+        <div class="text-center my-5">
+            <h1 class="fw-bold py-3 text-success">Mr</h1>
+
+            <div class="py-3 bg-gray-400">
+                <button class="btn btn-warning" onclick="addOne()">+1</button>
+                <button class="btn btn-warning" onclick="subtractTwo()">-2</button>
+                <button class="btn btn-warning" onclick="addThree()">+3</button>
+                <button class="btn btn-warning" onclick="subtractFour()">-4</button>
+                <button class="btn btn-warning" onclick="addFive()">+5</button>
+                <button class="btn btn-warning" onclick="subtractSix()">-6</button>
+                <button class="btn btn-warning" onclick="addSeven()">+7</button>
+                <button class="btn btn-warning" onclick="subtractEiht()">-8</button>
+                <button class="btn btn-warning" onclick="addNine()">+9</button>
+                <button class="btn btn-warning" onclick="subtractTen()">-10</button>
+            </div>
+            <hr>
+            <span class="h2 my-5" id="result">0</span>
+
+        </div>
+    </div>
+<script>
+    let result = 0;
+
+    function addOne() {
+        result += 1;
+        updateResult();
+    }
+    function addThree() {
+        result += 3;
+        updateResult();
+    }
+    function addFive() {
+        result += 5;
+        updateResult();
+    }
+    function addSeven() {
+        result += 7;
+        updateResult();
+    }
+    function addNine() {
+        result += 9;
+        updateResult();
+    }
+
+    function subtractTwo() {
+        result -= 2;
+        updateResult();
+    }
+
+    function subtractFour() {
+        result -= 4;
+        updateResult();
+    }
+    function subtractSix() {
+        result -= 6;
+        updateResult();
+    }
+    function subtractEight() {
+        result -= 8;
+        updateResult();
+    }
+    function subtractTen() {
+        result -= 10;
+        updateResult();
+    }
+
+    function updateResult() {
+        document.getElementById('result').innerText = result;
+    }
+</script>
+
+</body>
+</html>

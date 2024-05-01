@@ -1,0 +1,21 @@
+.bg-image-header{
+    background-image: url(../img/banner-01.jpg);
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: cover;
+}
+.header-margin-bottom {
+    margin-bottom: 5rem;
+}
+.header-margin-top {
+    margin-top: -5rem;
+}
+
+.bg-image-intro{
+    background-image: url(../img/video-bg.jpg);
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: cover;
+}
